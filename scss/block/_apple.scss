@@ -1,0 +1,39 @@
+.apple{
+  margin-bottom: 190px;
+}
+.apple__conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 121px;
+  background: #EAD1D0;
+}
+.apple__title {
+  padding-top: 32px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 200%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.apple__text {
+  color: #434242;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 250%;
+}
+.apple__item{
+  display: flex;
+  align-items: center;
+}
+.apple__item::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-image: url('../../img/apple-img.svg');
+  margin-right: 10px;
+}
+

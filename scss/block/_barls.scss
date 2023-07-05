@@ -1,0 +1,32 @@
+.barls{
+margin-bottom: 150px;
+}
+.barls__conatiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 121px 0 69px;
+}
+.barls__img-content {
+  max-width: 611px;
+  padding-bottom: 58px;
+}
+.barls__title {
+  color: #000;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  max-width: 416px;
+  margin-bottom: 40px;
+}
+.barls__text {
+  color: #434242;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  max-width: 520px;
+}
+.barls__text+.barls__text{
+  margin-bottom: 25px;
+}

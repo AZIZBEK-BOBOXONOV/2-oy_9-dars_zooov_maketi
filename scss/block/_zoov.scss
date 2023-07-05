@@ -1,0 +1,115 @@
+.zoov{
+margin-bottom: 145px;
+}
+.zoov__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.zoov__title {
+  color: #000;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+}
+.zoov__text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 777px;
+}
+.zoov__sub-title {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 4px;
+}
+.zoov__sub-text1 {
+  color: #9f9e9d;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+.zoov__sub-text2 {
+  color: #434242;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 11px;
+  max-width: 280px;
+}
+.zoov__sub-text3 {
+  color: #9f9e9d;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 24px;
+}
+.zoov__link {
+  color: #961914;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 13px 42px;
+  border-radius: 8px;
+  border: 1px solid #961914;
+}
+.zoov__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.zoov__item {
+  max-width: 280px;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+.zoov__item::before {
+  content: "";
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/zooov.png");
+}
+.zoov__conatiner {
+  padding: 0 121px;
+}
+.zoov__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1198px;
+  height: 184px;
+  background: #EAD1D0;
+  padding: 0 35.5px;
+  border-radius: 10px;
+}
+.zoov__sup-text {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.56px;
+  max-width: 705px;
+}
+.zoov__sup-link {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  border-radius: 8px;
+  background: #961914;
+  padding: 13px 42px;
+}
